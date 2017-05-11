@@ -117,7 +117,7 @@ public class JsonInputHandler {
 
     //! Take a JSON object and populate the Search object and element arrays.
     /*
-     * @param     JSONObject    map to search thru for gaps
+     * @param     JSONObject    map to search through for gaps
      *
      * @returns   bool          whether or not a valid action was given
      */
@@ -217,7 +217,7 @@ public class JsonInputHandler {
             return false;
         }
 
-        // Iterate thru a list of gap rules and add 'em to the array of rules.
+        // Iterate through a list of gap rules and add 'em to the array of rules.
         Iterator<Object> itObj = gapRulesJsonArray.iterator();
         while (itObj.hasNext()) {
 
@@ -269,7 +269,7 @@ public class JsonInputHandler {
             return false;
         }
 
-        // Iterate thru a list of campsites and add 'em to the array of rules.
+        // Iterate through a list of campsites and add 'em to the array of rules.
         Iterator<Object> itObjCamp = campsitesJsonArray.iterator();
         while (itObjCamp.hasNext()) {
 
@@ -323,7 +323,7 @@ public class JsonInputHandler {
             return false;
         }
 
-        // Iterate thru a list of campsites and add 'em to the array of
+        // Iterate through a list of campsites and add 'em to the array of
         // reservations.
         Iterator<Object> itObjReserv = reservationsJsonArray.iterator();
         while (itObjReserv.hasNext()) {

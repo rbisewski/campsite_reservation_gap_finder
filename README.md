@@ -1,8 +1,8 @@
 # CampsiteGapFinder - campsite gap rule app written in java
 
 The goal of this program is to take in JSON data, parse it to a series of
-arrays, and then search thru these arrays to determine whether or not a new
-gap has formed as a result of placing a reservation at a given campsite.
+arrays, and then search through these arrays to determine whether or not a
+new gap has formed as a result of placing a reservation at a given campsite.
 
 Defining exactly what a gap is can be determined by the gapSize property of
 any given gap rules. In the included file, test-case.json, the default gap

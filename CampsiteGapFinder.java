@@ -17,7 +17,7 @@
  *                 java CampsiteGapFinder test-case.json
  *
  *                 Where "test-case.json" refers to the JSON file that will
- *                 be parsed and searched thru for gaps.
+ *                 be parsed and searched through for gaps.
  */
 
 // Imports
@@ -60,7 +60,7 @@ public class CampsiteGapFinder
 
     //! Check if a valid action was requested.
     /*
-     * @param     String[]   array of strings to look thru
+     * @param     String[]   array of strings to look through
      *
      * @returns   bool       whether or not a valid action was given
      */
@@ -72,7 +72,7 @@ public class CampsiteGapFinder
             return false;
         }
 
-        // Cycle thru the list of fieldnames to determine if a valid action
+        // Cycle through the list of fieldnames to determine if a valid action
         // was requested.
         for (int i = 0; i < fieldnames.length; i++) {
             for (int j = 0; j < validActions.length; j++) {
@@ -214,7 +214,7 @@ public class CampsiteGapFinder
             u.debugPrint("\nCompleting call... jih.JsonToObjects()");
 
             // Initialize a SearchActionHandler since this needs to search
-            // thru the data gathered via the JSONInputHandler above.
+            // through the data gathered via the JSONInputHandler above.
             SearchActionHandler sah = new SearchActionHandler(jih, debugMode);
 
             // Sanity check, make sure the SearchActionHandler initialized
@@ -232,7 +232,7 @@ public class CampsiteGapFinder
               = (wasActionSuccessful == true) ? sah.searchForGaps() : false;
             u.debugPrint("\nCompleting call... sah.searchForGaps()");
 
-        // A default fall-thru in the event the end-user somehow ends up
+        // A default fall-through in the event the end-user somehow ends up
         // accessing a valid action that has yet to be implemented.
         } else {
             u.printf("Note: You requested the action `" + action + "` but " +

@@ -260,7 +260,7 @@ public class SearchActionHandler {
                  u.debugPrint(datesThatAreReservedAtGivenCampsite.get(a).toString());
             }
 
-            // Finally, cycle thru each of the gap rules...
+            // Finally, cycle through each of the gap rules...
             for (int l = 0; l < gapRulesArray.size(); l++) {
 
                 // Grab the current gap rule object.
@@ -411,7 +411,7 @@ public class SearchActionHandler {
             // Grab the campsite id from the current index.
             int curId = campsiteIdsWithoutGaps.get(i);
 
-            // Cycle thru the campsites array until this gets an id that
+            // Cycle through the campsites array until this gets an id that
             // matches, and then grab the name.
             for (int j = 0; j < campsites.size(); j++) {
                

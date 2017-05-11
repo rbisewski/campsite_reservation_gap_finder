@@ -527,7 +527,7 @@ public class XML {
                 sb.append('>');
             }
 
-            // Loop thru the keys.
+            // Loop through the keys.
             jo = (JSONObject) object;
             keys = jo.keys();
             while (keys.hasNext()) {
