@@ -29,8 +29,8 @@ This program was developed on the standard debian jessie docker image. In
 order to access some of the needed packages, you may need to add the
 following repos to /etc/apt/sources.list file:
 
-deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main
-deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main
+    deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main
+    deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main
 
 With the above added, the following packages are required:
 
